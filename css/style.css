@@ -1,6 +1,6 @@
 body {
     font-family: 'IBM Plex Sans KR', sans-serif; 
-    background-color: #ddf6ff; 
+    background-color: #a7dbe0;
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,7 +14,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 10px 0; 
+    font-size: 0.75em;
 }
 
 .title-box, .text-box {
@@ -23,16 +23,18 @@ body {
     border-radius: 30px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 80%;
+    width: 80%; 
     max-width: 600px; 
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px; /* 사각형 간의 간격을 동일하게 설정 */
 }
 
 .title-box {
-    padding: 5px 20px; /* 첫 번째 사각형 크기 줄이기 */
+    padding: 5px 20px; 
+    margin-top: 20px; /* 첫 번째 사각형을 아래로 이동 */
 }
 
 .title-box img {
@@ -108,6 +110,7 @@ th, td {
     padding: 10px;
     text-align: center;
     border: 1px solid #ddd;
+    width: 25%;
 }
 
 th {
