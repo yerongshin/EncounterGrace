@@ -1,5 +1,5 @@
 const FULL_PARTICIPATION_FEE = 50000;
-const PARTIAL_PARTICIPATION_FEE_PER_ITEM = 9000;
+const PARTIAL_PARTICIPATION_FEE_PER_ITEM = 12000;
 
 function checkAll(isChecked) {
     document.querySelectorAll('.checkbox').forEach(checkbox => {
